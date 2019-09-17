@@ -4,6 +4,7 @@ Whole heart segmentation from cardiac CT scans is a prerequisite for many clinic
 The proposed method performs multi-class segmentation of cardiac CT scans utilizing 2D convolutional neural networks with a multi-planar approach. Furthermore, spatial propagation is included in the network structure, to ensure spatial consistency through each image volume. The approach keeps the computational assets of 2D methods while addressing 3D issues regarding spatial context. The pipeline is structured in a two-step approach, in which the first step detects the location of the heart and crops a region of interest, and the second step performs multi-class segmentation of the heart structures. The pipeline demonstrated promising results on the MICCAI 2017 Multi-Modality Whole Heart Segmentation challenge data.
 
 Data is available from http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mmwhs/
+Article of approaches participating in the original challenge can be found here: https://arxiv.org/abs/1902.07880
 
 # Running the scripts
 First step: Data augmentation
