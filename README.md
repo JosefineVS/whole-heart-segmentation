@@ -5,6 +5,21 @@ The proposed method performs multi-class segmentation of cardiac CT scans utiliz
 
 Data is available from http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mmwhs/
 
+# Citing this library
+If you are using this code in a publication, please cite our paper using the following bibtex:
+```
+@inproceedings{sundgaard2020multi,
+  title={Multi-planar whole heart segmentation of 3D CT images using 2D spatial propagation CNN},
+  author={Sundgaard, Josefine Vilsbøll and Juhl, Kristine Aavild and Kofoed, Klaus Fuglsang and Paulsen, Rasmus R},
+  booktitle={Medical Imaging 2020: Image Processing},
+  volume={11313},
+  pages={113131Y},
+  year={2020},
+  organization={International Society for Optics and Photonics}
+}
+```
+The paper can be found at: https://doi.org/10.1117/12.2548015
+
 # Running the scripts
 First step: Data augmentation
 - Rund augmentation.py
